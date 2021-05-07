@@ -1,4 +1,4 @@
-vexport const personsReducer = (state = [], action) => {
+export const personsReducer = (state = [], action) => {
 
     switch (action.type) {
         case 'ADD_PERSON':
